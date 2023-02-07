@@ -19,28 +19,15 @@
                          font-family: "SmileySans-Oblique";
                          src: url("font/SmileySans-Oblique.ttf") format("truetype");
                  }
-		
-         
-           /* pc */
-            @media screen and (min-width: 767px) {
-                ul li {
-                    border:1px solid black;
-                    float:left;
-                    width:100px;
-                }
-             
-            /* app */
-            @media screen and (max-width: 767px) {
-                ul li {
-                    border:1px solid black;
-                    width:100px;
-                }
-            }
-		  
-		 a:link{color:gold;}
-		 a:hover {color:salmon;background:greenyellow;}
+#content{
+
+font-size:15px;
+padding:3px;
+margin:0px;
+}
+img{margin:0px}
 </style>
-<link href="theme/index.css" rel="stylesheet">
+
 </head>
 <body>
 <!--********************page.1***********************-->
@@ -49,74 +36,66 @@
 <a href="index.htm" data-icon="back" data-iconpos="left" data-ajax="false">主页</a> <h1><b>苹果应用插件</b></h1>
 </div>
 
-<div style="font-family: 'SmileySans-Oblique', sans-serif;">
+
+ <div data-role="content" id="content">
+ 	<ul data-role="listview" data-inset="true" data-filter="true">	
+		<li>
+			<a href=""><h3>🔗链接 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 📜简介</h3></a>
+			<a href="" data-icon="arrow-d">📲下载</a>
+		</li>
 		
-    <table class="table table-striped">
-	
-        <tbody>
-	   <tr>
-	       <th scope="row">🔗链接</th>
-	       <td>📜简介</td>
-	       <td>📲下载</td>
-	   </tr>
-          
-            
-          
-             <tr>
-                 <th scope="row"><a href="https://www.aidootk.com/">GameGem</a></th>
-                 <td>iOS数值搜索 可添加源apt.cydia.pro安装</td>
-                 <td><a href="https://pan.baidu.com/s/1DIm0RhwaiUbHeObjkVXIiQ?pwd=3top" data-role="button" data-icon="cloud" data-iconpos="left" data-inline="true">pan</a></td>
-             </tr>
-             <tr>
-                 <th scope="row"><a href="https://github.com/H5GG/H5GG">H5GG</a></th>
-                 <td>iOS数值搜索 还有制作插件功能</td>
-                 <td><a href="https://pan.baidu.com/s/18ZVtOWn3G7RT8HqbXJefcA?pwd=3top" data-role="button" data-icon="cloud" data-iconpos="left" data-inline="true">pan</a></td>
-             </tr>
-             <tr>
-                 <th scope="row"><a href="https://github.com/iMemScan/ime">iMemScan</a></th>
-                 <td>iOS数值搜索 可添加源apt.cydia.pro安装</td>
-                 <td><a href="https://pan.baidu.com/s/1omp_EdAavkc7bzuuwxrgZg?pwd=3top" data-role="button" data-icon="cloud" data-iconpos="left" data-inline="true">pan</a></td>
-             </tr>
-             <tr>
-                 <th scope="row"><a href="https://github.com/DeviLeo/DLGMemor">DLGMemor</a></th>
-                 <td>iOS数值搜索 可添加源apt.cydiakk.com安装</td>
-                 <td><a href="https://pan.baidu.com/s/1DRr0rFgmLRDXRR9n99NwZw?pwd=3top" data-role="button" data-icon="cloud" data-iconpos="left" data-inline="true">pan</a></td>
-             </tr>
-             <tr>
-                 <th scope="row"><a href="https://debugtool.app/">debugtool</a></th>
-                 <td>iOS数值搜索 可添加源repo.debugtool.app安装 需要购买才能使用</td>
-                 <td><a href="https://pan.baidu.com/s/10kbtZcu60LcVj6vZCYcZ1A?pwd=3top" data-role="button" data-icon="cloud" data-iconpos="left" data-inline="true">pan</a></td>
-             </tr>
-			 <tr>
-			     <th scope="row"><a href="https://debugtool.app/">debugtoolpro</a></th>
-			     <td>iOS数值搜索 可添加源repo.debugtool.app安装 需要购买才能使用</td>
-			     <td><a href="https://pan.baidu.com/s/1BjnbwahN0DBWOqVCZEhpww?pwd=3top" data-role="button" data-icon="cloud" data-iconpos="left" data-inline="true">pan</a></td>
-			 </tr>
-             <tr>
-                 <th scope="row"><a href="https://iosgods.com/">IGameGod</a></th>
-                 <td>iOS数值和模糊搜索 可添加源iosgods.com/repo安装</td>
-                 <td><a href="https://pan.baidu.com/s/1753DimEFX2ajTZiQnb9F7g?pwd=3top" data-role="button" data-icon="cloud" data-iconpos="left" data-inline="true">pan</a></td>
-             </tr>
-             <tr>
-                 <th scope="row"><a href="https://igg-server.herokuapp.com/">iMemEditor</a></th>
-                 <td>iOS数值和模糊搜索 可添加源aquawu.github.io/igg安装 需要购买才能使用</td>
-                 <td><a href="https://pan.baidu.com/s/1dB0FTrbu68mY-asV3xChpg?pwd=3top" data-role="button" data-icon="cloud" data-iconpos="left" data-inline="true">pan</a></td>
-             </tr>
-             <tr>
-                 <th scope="row"><a href="https://igg-server.herokuapp.com/">iGameGuardian</a></th>
-                 <td>iOS数值和模糊搜索 可添加源aquawu.github.io/igg安装 需要购买才能使用</td>
-                 <td><a href="https://pan.baidu.com/s/1tUhipxfYFDiI8rCg1piBhA?pwd=3top" data-role="button" data-icon="cloud" data-iconpos="left" data-inline="true">pan</a></td>
-             </tr>
+ 		<li>
+ 			<a href="https://www.aidootk.com/"><h3>GameGem &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp iOS数值搜索</h3></a>
+ 			<a href="https://pan.baidu.com/s/1DIm0RhwaiUbHeObjkVXIiQ?pwd=3top" data-icon="cloud"></a>
+ 		</li>
+        <li>
+        	<a href="https://github.com/H5GG/H5GG"><h3>H5GG &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp iOS数值搜索 还有制作插件功能</h3></a>
+        	<a href="https://pan.baidu.com/s/18ZVtOWn3G7RT8HqbXJefcA?pwd=3top" data-icon="cloud"></a>
+        </li>
+		<li>
+			<a href="https://github.com/iMemScan/ime"><h3>iMemScan &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp iOS数值搜索</h3></a>
+			<a href="https://pan.baidu.com/s/1omp_EdAavkc7bzuuwxrgZg?pwd=3top" data-icon="cloud"></a>
+		</li>
+		<li>
+			<a href="https://github.com/DeviLeo/DLGMemor"><h3>DLGMemor &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp iOS数值搜索</h3></a>
+			<a href="https://pan.baidu.com/s/1DRr0rFgmLRDXRR9n99NwZw?pwd=3top" data-icon="cloud"></a>
+		</li>
+		<li>
+			<a href="https://debugtool.app/"><h3>debugtool &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp iOS数值搜索</h3></a>
+			<a href="https://pan.baidu.com/s/10kbtZcu60LcVj6vZCYcZ1A?pwd=3top" data-icon="cloud"></a>
+		</li>
+		<li>
+			<a href="https://debugtool.app/"><h3>debugtoolpro &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp iOS数值搜索</h3></a>
+			<a href="https://pan.baidu.com/s/1BjnbwahN0DBWOqVCZEhpww?pwd=3top" data-icon="cloud"></a>
+		</li>
+		<li>
+			<a href="https://iosgods.com/"><h3>IGameGod &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp iOS数值和模糊搜索</h3></a>
+			<a href="https://pan.baidu.com/s/1753DimEFX2ajTZiQnb9F7g?pwd=3top" data-icon="cloud"></a>
+		</li>
+		<li>
+			<a href="https://igg-server.herokuapp.com/"><h3>iMemEditor &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp iOS数值和模糊搜索 需要购买才能使用</h3></a>
+			<a href="https://pan.baidu.com/s/1dB0FTrbu68mY-asV3xChpg?pwd=3top" data-icon="cloud"></a>
+		</li>
+		<li>
+			<a href="https://igg-server.herokuapp.com/"><h3>iGameGuardian &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp iOS数值和模糊搜索 需要购买才能使用</h3></a>
+			<a href="https://pan.baidu.com/s/1tUhipxfYFDiI8rCg1piBhA?pwd=3top" data-icon="cloud"></a>
+		</li>
+		
+		
+ 	</ul>
+ 
+ 		</div>
+		
+		
+		
+         
+
+             
 			 
 		 
 		 
-		  
+		
 
-		  
-        </tbody>
-    </table>
-    <script src="script/index.js"></script>
-</div>	
 
 
 
