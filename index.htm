@@ -1,8 +1,8 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <title></title>
-<link rel="icon" href="image/biao.png">
+<link rel="icon" href="image/logo.png">
  <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Cache-Control" content="no-transform" />
@@ -13,42 +13,150 @@
 <script src="script/jquery-2.2.4.min.js"></script>
 <script src="script/jquery.mobile-1.4.5.min.js"></script>
 
-<!--优化屏幕宽度-->
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style type="text/css">
 
 #content{
 
-font-size:17px;
-text-align:center
-
+font-size:15px;
+padding:3px;
+margin:0px;
 }
-
+img{margin:0px}
 </style>
 
 </head>
 <body>
-	
-<div data-role="page" data-title="宝藏资源网站大全" id="first" data-theme="a">
-<div data-role="header">
-<h1><font color="blue"><b><font color="gold">宝藏</font><font color="blue">资源</font><font color="green">网站</font><font color="red">大全</font></b></font></h1>
-</div>
-<div data-role="content" id="content" class="firstcontent">
-	
 
-	<a href="iOS ipa.htm" data-ajax="false" data-role="button" data-icon="navigation" data-iconpos="bottom" data-inline="true"><br>苹果手机应用</a>
-	<a href="iOS deb.htm" data-ajax="false" data-role="button" data-icon="navigation" data-iconpos="bottom" data-inline="true"><br>苹果手机插件</a>
-	<a href="Android apk.htm" data-ajax="false" data-role="button" data-icon="navigation" data-iconpos="bottom" data-inline="true"><br>安卓手机应用</a>
-	<a href="macOS dmg.htm" data-ajax="false" data-role="button" data-icon="navigation" data-iconpos="bottom" data-inline="true"><br>苹果电脑应用</a>
-	<a href="Windows exe.htm" data-ajax="false" data-role="button" data-icon="navigation" data-iconpos="bottom" data-inline="true"><br>微软电脑应用</a>
-    
-    <a href="about.htm" data-ajax="false" data-role="button" data-icon="info" data-iconpos="bottom" data-inline="true"><br>本站使用说明</a>
-    
-    
+<div data-role="page" data-title="IPA Library" id="first" data-theme="a">
+<div data-role="header">
+<h1><b>IPA Library</b></h1>
 </div>
+
+
+<div data-role="content" id="content">
+	  <form class="ui-filterable">
+	       <input id="Filter" data-type="search" placeholder="Search... 搜索... サーチ...">
+	     </form>
+ 	<ul data-role="listview" data-inset="true" data-filter="true" data-input="#Filter" >
+<li>
+		<a href="https://www.apple.com/app-store/">
+		<img src="image/link.png">
+		<h3>app name&introduction️</h3>
+		<p>download ⬇icon→</p></a>
+		<a href="" data-icon="arrow-d"></a>
+</li>
+<li>
+		<a href="https://www.apple.com.cn/app-store/">
+		<img src="image/link1.png">
+		<h3>应用名和介绍</h3>
+		<p>下载 ⬇图标️→</p></a>
+		<a href="" data-icon="arrow-d"></a>
+</li>
+<li>
+		<a href="https://www.apple.com/jp/app-store/">
+		<img src="image/link2.png">
+		<h3>アプリ名と紹介️</h3>
+		<p>ダウンロード ⬇アイコン→</p></a>
+		<a href="" data-icon="arrow-d"></a>
+</li>
+
+<li>
+	<a href="https://www.ppsspp.org/">
+	<img src="image/iOS ipa/PPSSPP.jpg">
+	<h3>PPSSPP</h3>
+	<p>A PSP emulator</p></a>
+	<a href="https://p.xx.wtf/PPSSPP_v1.14.4-617-gfebba1886.ipa" data-icon="arrow-d"></a>
+</li>			
+<li>
+	<a href="https://www.retroarch.com/">
+	<img src="image/iOS ipa/RetroArch.jpg">
+	<h3>RetroArch</h3>
+	<p>RetroArch is a frontend for emulators, game engines and media players.</p></a>
+	<a href="https://buildbot.libretro.com/nightly/apple/ios-arm64/RetroArch.ipa" data-icon="arrow-d"></a>
+</li>			
+<li>
+	<a href="http://www.nds4ios.com/">
+	<img src="image/iOS ipa/NDS4iOS.jpg">
+	<h3>NDS4iOS</h3>
+	<p>- Nintendo DS emulator for IOS</p></a>
+	<a href="https://tweakhome.app/Apps/ipas/NDS4iOS.ipa" data-icon="arrow-d"></a>
+</li>		
+<li>
+	<a href="http://www.gba4iosapp.com/">
+	<img src="image/iOS ipa/GBA4iOS.jpg">
+	<h3>GBA4iOS</h3>
+	<p>GBA4iOS is a Game Boy Advance emulator created by iOS developer Riley Testut. </p></a>
+	<a href="https://tweakhome.app/Apps/ipas/GBA4iOS.ipa" data-icon="arrow-d"></a>
+</li>
+<li>
+	<a href="https://dolphinios.oatmealdome.me/">
+	<img src="image/iOS ipa/DolphiniOS.jpg">
+	<h3>DolphiniOS</h3>
+	<p>DolphiniOS is a GameCube and Wii emulator for iOS and iPadOS.</p></a>
+	<a href="https://github.com/OatmealDome/dolphin/releases/download/3.2.1/DolphiniOS-NJB-3.2.1-213.ipa" data-icon="arrow-d"></a>
+</li>		
+<li>
+	<a href="">
+	<img src="image/iOS ipa/Provenance.jpg">
+	<h3>Provenance</h3>
+	<p>iOS & tvOS multi-emulator frontend.</p></a>
+	<a href="https://tweak-box.com/files/provenance.ipa" data-icon="arrow-d"></a>
+</li>		
+<li>
+	<a href="">
+	<img src="image/iOS ipa/Delta.jpg">
+	<h3>Delta</h3>
+	<p>Delta emulator is one of the best emulator out there for iPhone and iPad that emulates many retro game console.</p></a>
+	<a href="https://tweak-box.com/files/delta.ipa" data-icon="arrow-d"></a>
+</li>		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+ 		
+		
+		
+ 	</ul>
+ 
+ 		</div>
+		
+		
+		
+         
+
+             
+			 
+		 
+		 
+		
+
+
+
+
 <div data-role="footer" data-position="fixed" style="text-align:center">
-  ©2023 AI网友
+©AI Non-Commercial 非商用 非商用利用
 </div>
-</div>
+
+
 </body>
 </html>
